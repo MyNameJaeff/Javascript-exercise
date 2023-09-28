@@ -31,6 +31,6 @@ const cost = (books) => {
     extraArr1.forEach(extraArr => {
         cost += extraArr.length * (800 - (800 * discounts[extraArr.length]));
     });
-    return cost + " cents";
+    return `${cost} cents or ${cost/100} dollars`;
 };
 console.log(cost(["A", "A", "B" ,"B", "C", "C", "D", "E"]));

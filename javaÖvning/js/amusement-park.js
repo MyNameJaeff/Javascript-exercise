@@ -34,9 +34,26 @@ const tickets = {
   "0H2AZ123": null,
   "23LA9T41": "Verenda Nardi",
 };
+
+const simpleTicketStatus = (ticketList, ticket) => {
+  if (ticket in ticketList) {
+    if (ticketList[ticket] != null) {
+      return `${ticketList[ticket]}`;
+    } else {
+      return "Invalid ticket!";
+    }
+  } else {
+    return "Invalid ticket!";
+  }
+};
 console.log(ticketStatus(tickets, "RE90VAW7"));
 console.log(ticketStatus(tickets, "0H2AZ123"));
 console.log(ticketStatus(tickets, "23LA9T41"));
+console.log("\n");
+console.log(simpleTicketStatus(tickets, "RE90VAW7"));
+console.log(simpleTicketStatus(tickets, "0H2AZ123"));
+console.log(simpleTicketStatus(tickets, "23LA9T41"));
+
 
 const gtcVersion = (who) => {
   if (who.gtc != null) {

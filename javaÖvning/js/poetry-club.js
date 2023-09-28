@@ -1,5 +1,5 @@
 console.log("\nPoetry club Code:\n");
-const frontDoorResponse = string => string[0];
+const frontDoorResponse = string => string.trim()[0];
 console.log(frontDoorResponse('Stands so high'));
 
 const frontDoorPassword = string => {
