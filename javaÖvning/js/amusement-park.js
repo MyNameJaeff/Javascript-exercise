@@ -12,11 +12,7 @@ const revokeTicket = (who) => {
   who.ticketId = null;
   return who;
 };
-const visitor = {
-  name: "Verena Nardi",
-  age: 45,
-  ticketId: "h32AZ123",
-};
+var visitor = createVisitor("Verena Nardi", 45, "h32AZ123");
 console.log(revokeTicket(visitor));
 
 const ticketStatus = (ticketList, ticket) => {

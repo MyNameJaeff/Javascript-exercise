@@ -30,7 +30,7 @@ const allergicTo = (score) => {
       }
     }
   });
-  if (egg) {
+  if (egg) { // If not code exists egg goes to bad spot in arr
     allergies.push(allergies.shift());
   }
   return allergies.reverse();
