@@ -20,7 +20,8 @@ console.log(backDoorResponse('Stands so high   '));
 
 const backDoorPassword = string => {
     string = frontDoorPassword(string);
-    if(!string.includes("please")){
+    let lowercased = string.toLowerCase();
+    if(!lowercased.endsWith("please")){
         string += ", please";
     }
     return string;
