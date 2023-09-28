@@ -1,4 +1,4 @@
-console.log("\nPoetry club Code:");
+console.log("\nPoetry club Code:\n");
 const frontDoorResponse = string => string[0];
 console.log(frontDoorResponse('Stands so high'));
 

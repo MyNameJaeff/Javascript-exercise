@@ -1,4 +1,4 @@
-console.log("\nBookstore Code:");
+console.log("\nBookstore Code:\n");
 const discounts = {
     "1": 0,
     "2": 0.05,

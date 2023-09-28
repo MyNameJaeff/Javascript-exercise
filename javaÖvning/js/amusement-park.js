@@ -1,4 +1,4 @@
-console.log("\nAmusement Park Code:");
+console.log("\nAmusement Park Code:\n");
 const createVisitor = (names, age, ticketId) => {
   var obj = {};
   obj.name = names;

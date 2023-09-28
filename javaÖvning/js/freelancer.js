@@ -1,4 +1,4 @@
-console.log("\nFreelancer Code:");
+console.log("\nFreelancer Code:\n");
 const printOut = what => console.log(what);
 const ratePerDay = rate => rate*8;
 printOut(ratePerDay(89));
