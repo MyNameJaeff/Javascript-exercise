@@ -13,7 +13,7 @@ const allergicTo = (score) => {
   let allergies = [];
   let egg = false; // TEMP OR PERMA ????
   if (score > 255) {
-    score -= (256 * Math.round(score / 256));
+    score -= 256 * Math.round(score / 256);
   }
   if (score % 2 != 0) {
     egg = true;
