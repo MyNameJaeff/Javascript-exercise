@@ -1,4 +1,4 @@
-# javascriptOvning
+# Javascript-exercise
 This was a task i recived during year 4 at NTI Södertörn, where the task was to complete a bunch of tasks by using javascript and then send the completed infomation to the console.
 This wasn't a large project because it was near the start of our JavaScript course.
  
